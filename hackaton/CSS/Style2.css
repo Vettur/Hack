@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,body,h1,h2,h3,h4,h5,a{
+    font-family: 'Montserrat',cursive;
+}
+.navbar{
+    background: rgb(255, 255, 255);
+    
+    }
+    .nav-link,.navbar-brand{
+        color:#f4f4f4;
+        cursor: pointer;
+    }
+    .nav-link{
+        margin-right: 1em !important;
+    }
+    .nav-link:hover{
+        background: #f4f4f4;
+        color: #833d00;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-toggler{
+        background: #fff !important;
+    }
+    .bg-dark{
+        background-color: #343a40 !important
+    }
+    .bg-primary{
+        background-color: #343a40 !important
+    }
+
+    .row about {
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .image_upload {
+        background: #FCFCFC url(/images/plus.png) no-repeat center center;
+        border: 1px dashed #808080;
+        opacity: 0.6;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        margin: -40px 20px;
+        width: 500px;
+        height: 600px;
+    }
+    * {
+        outline: none;
+    }
+
+    label {
+        cursor: default;
+    }
+
+    input[type="file" i] {
+        appearance: none;
+        background-color: initial;
+        cursor: default;
+        align-items: baseline;
+        color: inherit;
+        text-overflow: ellipsis;
+        white-space: pre;
+        text-align: start !important;
+        padding: initial;
+        border: initial;
+        overflow: hidden !important;
+    }
+
+    input {
+        writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        margin: 0em;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+    }
+
+    .about{
+        margin: 4em 0;
+        padding: 1em;
+        position: relative;
+    }
+    .about h1{
+        color: #F97300;
+        margin: 1em;
+    }
+    .about img{
+        height: 100;
+        width: 100;
+        border-radius: 50%;
+    }
+    .about span{
+        display: block;
+        color: #888;
+        position: absolute;
+        left: 115px;
+    }
+    .about .desc{
+        padding: 2em;
+        border-left: 4px solid #b69015;
+    }
+    .about .desc h3{
+        color: #a88114;
+    }
+    .about .desc p{
+        line-height: 2;
+        color: #888;
+    }
+  
+
